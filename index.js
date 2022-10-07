@@ -15,14 +15,6 @@ countersEl.forEach((counterEl) => {
         setTimeout(incrementCounter, 50)
     } else {
         counterEl.innerText = dataCeil;
-    }
-
-
-        // if (currentNum < dataCeil) {
-    //   counterEl.innerText = currentNum;
-    //   setTimeout(incrementCounter, 50);
-    // } else {
-    //   counterEl.innerText = dataCeil;
-    // }
+    }        
   }
 });
